@@ -9,12 +9,12 @@ This is short life package until finishing "[WIP: override get/setproperty and p
 
 # Installation
 ```julia
-(v1.0) pkg> add https://github.com/goropikari/PySyntax2
+(v1.0) pkg> add https://github.com/goropikari/PySyntax2.jl
 ```
 or
 ```julia
 using Pkg
-Pkg.pkg"add https://github.com/goropikari/PySyntax2"
+Pkg.pkg"add https://github.com/goropikari/PySyntax2.jl"
 ```
 
 # Usage
