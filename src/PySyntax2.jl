@@ -1,5 +1,6 @@
 module PySyntax2
 
-greet() = print("Hello World!")
+using PyCall: PyObject
+Base.getproperty(obj::PyObject, s::Symbol) = isdefined(obj, s) ? getfield(obj, s) : (obj)[s]
 
 end # module
